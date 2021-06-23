@@ -20,7 +20,7 @@ public class JavaOrnekDonguler {
             System.out.println(sayi);
             sayi = sayi+2;
         }*/
-        int i = 10, j = 0, k = 0;
+        /*int i = 10, j = 0, k = 0;
         while (i>j){
             System.out.println("i j'den büyüktür.");
             i = i-2;
@@ -28,7 +28,22 @@ public class JavaOrnekDonguler {
             k++;
         }
         System.out.println("Artık büyük değildir.");
-        System.out.println("***" + k + " kez döngüye girildi.***");
+        System.out.println("***" + k + " kez döngüye girildi.***");*/
+        /*int i = 0, toplam=0;
+        do{
+            toplam+=i;
+            i++;
+        }
+        while(i<=100);
+        System.out.println(toplam);*/
+        int i=0, toplam=0;
+            do {
+            toplam+=i;
+            i+=2;
+	}
+        while (i<=15);
+	System.out.println(toplam);
+        
     }
     
 }
