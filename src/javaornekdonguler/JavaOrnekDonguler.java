@@ -29,6 +29,17 @@ public class JavaOrnekDonguler {
         }
         System.out.println("Artık büyük değildir.");
         System.out.println("***" + k + " kez döngüye girildi.***");*/
+        
+	    
+	//ekrana 10 kere alt alta Hello World! yazdırma
+        /*int i=0;
+        while (i<10){
+            System.out.println("Hello World!");
+            i++;
+        }*/
+        
+        
+        //0'dan 100' kadar sayıların toplamı
         /*int i = 0, toplam=0;
         do{
             toplam+=i;
@@ -37,39 +48,65 @@ public class JavaOrnekDonguler {
         while(i<=100);
         System.out.println(toplam);*/
         
-	//0'dan 15'e kadar çift sayıların toplamı  
-	/*int i=0, toplam=0;
+        
+        //15'ten küçük çift sayıların toplamı
+        /*int i=0, toplam=0;
             do {
             toplam+=i;
             i+=2;
 	}
         while (i<=15);
 	System.out.println(toplam);*/
-	
-	    
-	//for & switch case together scenario    
-	for (int i=1; i<=5; i++){
-		switch (i){
-			case 1:
-				System.out.println(i);
-				break;
-			case 2:
-				System.out.println(i);
-				break;
-			case 3:
-				System.out.println(i);
-				break;
-			case 4:
-				System.out.println(i);
-				break;
-			case 5:
-				System.out.println(i);
-				break;
-			default:
-				System.out.println("Geçersiz sayı");
-				}
-			}
         
+
+        //faktöriyel hesabı:
+        /*long fakt=1;
+        for (int i=1; i<=20; i++){
+            fakt*=i;
+            System.out.println(i + "! = "+fakt);
+        }*/
+        
+
+        //alfabe sıralama
+        /*for (char i='A'; i<='Z';i++){
+        System.out.println(i);
+        }*/
+        
+        
+        //metindeki karakter sayısını bulma
+        /*String metin="Merhaba Java Dersi";
+        char karakterler='a';
+        int karakterSayisi=0;
+        for (int i=0;i<metin.length();i++){
+            if(karakterler==metin.charAt(i)){
+                karakterSayisi++;
+            }
+        }
+        System.out.println(metin + " metninde "+karakterler+" karakteri "+ karakterSayisi +" adet vardır.");*/
+        
+        
+        //for & switch case together scenario    
+	for (int i=1; i<=5; i++){
+            switch (i){
+                case 1:
+                System.out.println(i);
+		break;
+		case 2:
+		System.out.println(i);
+		break;
+                case 3:
+		System.out.println(i);
+		break;
+                case 4:
+		System.out.println(i);
+		break;
+		case 5:
+		System.out.println(i);
+		break;
+		default:
+		System.out.println("Geçersiz sayı");
+		}
+	}
     }
     
 }
