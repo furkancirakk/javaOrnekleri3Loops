@@ -36,13 +36,39 @@ public class JavaOrnekDonguler {
         }
         while(i<=100);
         System.out.println(toplam);*/
-        int i=0, toplam=0;
+        
+	//0'dan 15'e kadar çift sayıların toplamı  
+	/*int i=0, toplam=0;
             do {
             toplam+=i;
             i+=2;
 	}
         while (i<=15);
-	System.out.println(toplam);
+	System.out.println(toplam);*/
+	
+	    
+	//for & switch case together scenario    
+	for (int i=1; i<=5; i++){
+		switch (i){
+			case 1:
+				System.out.println(i);
+				break;
+			case 2:
+				System.out.println(i);
+				break;
+			case 3:
+				System.out.println(i);
+				break;
+			case 4:
+				System.out.println(i);
+				break;
+			case 5:
+				System.out.println(i);
+				break;
+			default:
+				System.out.println("Geçersiz sayı");
+				}
+			}
         
     }
     
