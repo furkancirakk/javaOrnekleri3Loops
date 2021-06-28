@@ -108,14 +108,52 @@ public class JavaOrnekDonguler {
 		}
 	}*/
 	    
+	    //iç içe for loop
+        /*for (int i=1; i<=5; i++){//dış döngü || column
+            System.out.println();
+            for (int j=1; j<=10; j++){//iç döngü || row
+                System.out.print(i*j + " ");
+            }
+        }*/
+        
+        
+        
+        //Star Pattern
+        /*for (int i=1; i<=4; i++){
+            System.out.println();
+            for (int j=1; j<=i; j++){
+                System.out.print("* ");
+                
+            }
+        }*/
+        
+        
+        
+        //Gelişmiş For
+        /*int [] dizi={1,2,3,4,5};
+        for (int i:dizi){
+            System.out.println(i);
+        }*/
 	    
-	    //
-	    for(int i=1; i<=4; i++){
+	    
+	    
+	 //Star Pattern(Reverse)
+	 /*for(int i=1; i<=4; i++){
             System.out.println(" ");
             for(int j=4; j>=i; j--){
                 System.out.print("*");
             }
-        }
+        }*/
+	    
+	    
+	
+	//Carpim Tablosu
+        for (int i=1; i<=10; i++){
+            System.out.println();
+            for (int j=1; j<=10; j++){
+                System.out.println(j + "*" + i + "=" + (j*i));
+            }
+	}
     }
     
 }
