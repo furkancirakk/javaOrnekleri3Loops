@@ -86,7 +86,7 @@ public class JavaOrnekDonguler {
         
         
         //for & switch case together scenario    
-	for (int i=1; i<=5; i++){
+	/*for (int i=1; i<=5; i++){
             switch (i){
                 case 1:
                 System.out.println(i);
@@ -106,7 +106,16 @@ public class JavaOrnekDonguler {
 		default:
 		System.out.println("Geçersiz sayı");
 		}
-	}
+	}*/
+	    
+	    
+	    //
+	    for(int i=1; i<=4; i++){
+            System.out.println(" ");
+            for(int j=4; j>=i; j--){
+                System.out.print("*");
+            }
+        }
     }
     
 }
