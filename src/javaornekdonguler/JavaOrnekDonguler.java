@@ -148,12 +148,27 @@ public class JavaOrnekDonguler {
 	    
 	
 	//Carpim Tablosu
-        for (int i=1; i<=10; i++){
+        /*for (int i=1; i<=10; i++){
             System.out.println();
             for (int j=1; j<=10; j++){
                 System.out.println(j + "*" + i + "=" + (j*i));
             }
-	}
+	}*/
+	    
+	    
+	//Aylık ücretin vergisi
+	/*double [] aylik = {1.534, 2.146, 1.878};
+	int vergi = 30;
+		for (double hesap:aylik){
+		System.out.println("Aylık: "+hesap+" Vergisi: "+ (hesap*vergi/100) );
+		}*/
+		
+		
+	//Gelişmiş for
+		String [] arabalar = {"AUDI", "BMW", "MERCEDES", "VOLKSWAGEN", "HONDA", "TOYOTA"};
+		for (String cars : arabalar){
+		    System.out.println(cars);
+		}
     }
     
 }
